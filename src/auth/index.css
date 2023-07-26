@@ -1,0 +1,66 @@
+.login-page, .sign-up-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: var(--primary-100);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login__button, .sign-up__button {
+  padding: 8px;
+  border: none;
+  background-color: rgba(0, 0, 0, 1.0);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.login__button:hover {
+  background-color: var(--primary-100);
+}
+
+.span__login__signup {
+  color: darkgoldenrod;
+  text-decoration: unset !important;
+}
+
+@media (max-width: 991px) {
+  .auth__section .guitar__image {
+    width: 500px;
+    height: 500px;
+  }
+
+  .login-page,
+  .sign-up-page {
+    max-height: 50vh !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .auth__section .guitar__image {
+    width: 300px;
+    height: 300px;
+  }
+  .login-page,
+  .sign-up-page {
+    max-height: 60vh !important;
+  }
+}

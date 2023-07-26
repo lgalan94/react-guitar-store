@@ -1,0 +1,56 @@
+.home {
+  min-height: 100vh;
+}
+
+.image__column {
+  background-color: rgba(209, 129, 79, 1.0);
+}
+
+.banner__column {
+  align-self: center;
+}
+
+.hero__title {
+  font-size: 4em;
+  font-weight: 900;
+  color: var(--primary-100);
+}
+
+.hero__subtitle {
+  font-size: 2em;
+  font-weight: 300;
+  color: rgba(0, 0, 0, .75);
+}
+
+.guitar__image {
+  width: 600px;
+  height: 600px;
+}
+
+@media (max-width: 767px) {
+  .guitar__image {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .shop-now__button {
+    margin-bottom: 20px;
+  }
+  .image__column {
+    align-self: left;
+    display: flex;
+  }
+}
+
+.shop-now__button {
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  color: rgba(209, 129, 79, 1.0);
+  background: none;
+  outline: 2.5px solid rgba(209, 129, 79, 1.0) !important;
+}
+

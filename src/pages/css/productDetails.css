@@ -1,0 +1,124 @@
+.product-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  background-color: blanchedalmond;
+}
+
+.image__container {
+  background-color: rgba(115, 113, 106, .35);
+}
+
+.product-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin-right: 20px;
+  align-content: center;
+}
+
+.product-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product__ratings {
+  font-size: .9em;
+  border-right: 1px solid rgba(0, 0, 0, .70);
+  width: 20%;
+  color: #888
+}
+
+.product__sold {
+  font-size: .9em;
+  margin-left: 20px;
+  color: #888
+}
+
+.product-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 20px 0;
+  background-color: rgba(112, 111, 107, .10);
+  text-align: center;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  color: #888;
+  font-size: .9em;
+}
+
+.minus-button,
+.plus-button {
+  color: #000;
+  cursor: pointer;
+  border: none;
+  background-color: unset;
+  padding: 5px 15px;
+}
+
+.quantity {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 1.2em !important;
+}
+
+.quantity__container {
+  border: 1px solid rgba(112, 111, 107, .20);
+  border-radius: 2px;
+}
+
+.specifications,
+.prod__description {
+  padding: 10px 0;
+  background-color: rgba(112, 111, 107, .10);
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.specifications__column {
+  width: 100px;
+  color: #888;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+  .product-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .product-name {
+    margin-top: 10px;
+  }
+  .product__ratings {
+    width: 16.5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .details__column {
+    padding: 0 !important;
+  }
+  .product__ratings {
+    width: 30%;
+  }
+  .ratings__column {
+    font-size: .8em;
+  }
+}
