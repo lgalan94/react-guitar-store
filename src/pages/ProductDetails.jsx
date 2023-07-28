@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './css/productDetails.css';
 import MoreProductDetails from './MoreProductDetails';
@@ -74,10 +74,12 @@ const ProductDetails = () => {
 							title="Add To Cart"
 
 						/>
+						<Link to='/checkout' className="product__link">
 						<CustomButton 
 							title="Buy Now"
 							containerStyles="buy-now__button"
 						/>
+						</Link>
 					</div>
 				</div>
 			</div>

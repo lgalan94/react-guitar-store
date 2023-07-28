@@ -2,7 +2,7 @@ import { UserProvider } from './UserContext.js';
 import { useState } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Master, Cart, ProductDetails, Products } from './pages';
+import { Master, Cart, ProductDetails, Products, Checkout } from './pages';
 import { Navbar } from './components';
 import Login from './auth/Login';
 import SignUp from './auth/SignUp';
@@ -31,7 +31,7 @@ function App() {
           <Route path = '/login' element = {<Login />} />
           <Route path = '/sign-up' element = {<SignUp />} />
           <Route path = '/cart' element = {<Cart />} />
-          
+          <Route path = '/checkout' element = {<Checkout />} />
         </Routes>
       </BrowserRouter>
     </UserProvider>

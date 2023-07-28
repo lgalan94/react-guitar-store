@@ -1,0 +1,150 @@
+.checkout-container {
+  background-color: blanchedalmond;
+  border-top: 3px dashed goldenrod;
+}
+
+.checkout-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.checkout-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+.delivery__address {
+  padding: 10px;
+  font-weight: bold;
+  color: var(--primary-100);
+}
+
+.customer__name {
+  padding: 0 10px;
+  font-weight: 700;
+}
+
+.customer__contact {
+  padding: 0 10px;
+  font-weight: 700;
+  margin-top: -15px;
+}
+
+.delivery__address,
+.customer__name,
+.customer__contact {
+  margin-right: 50px;
+}
+
+.change__button {
+  padding: 10px 5px;
+  border: none;
+  background-color: unset;
+  color: dodgerblue;
+  font-weight: 900;
+}
+
+.products-ordered__container {
+  background-color: blanchedalmond;
+  border-bottom: 1px dashed rgba(191, 184, 184, .75);
+}
+
+.container__total {
+  background-color: blanchedalmond;
+}
+
+.list-of-products__ordered {
+  
+}
+
+.unit-price__div,
+.quantity__div,
+.subtotal__div {
+  width: 120px;
+  margin: 0 !important;
+  color: #888;
+}
+
+.unit-price__div-item,
+.quantity__div-item,
+.subtotal__div-item {
+  width: 120px;
+  margin: 0 !important;
+}
+
+
+.products__checkout-img {
+  width: 65px;
+  height: 65px;
+  background-color: rgba(255, 255, 255,  .5);
+} 
+
+.product__checkout-description {
+  margin: 0;
+  padding: 0;
+}
+
+.order__total {
+  color: #888;
+  padding: 20px 0;
+}
+
+.order__total span {
+  color: var(--primary-100);
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.e-wallet__button,
+.cod__button {
+  margin: 10px;
+  padding: 10px 5px;
+  background-color: #fff;
+  border: none !important;
+  color: var(--primary-100);
+}
+.total__payment {
+  color: var(--primary-100);
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-right: 20px;
+}
+
+.place__order-button {
+  padding: 8px 50px;
+  border: none;
+  background-color: var(--primary-100);
+  color: #fff;
+  font-weight: 700;
+}
+
+.place__order-button:hover {
+  border: 5px solid beige;
+}
